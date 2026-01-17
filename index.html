@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приглашение на свадьбу | Кирилл и Мария</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Marck+Script&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Главный баннер -->
+    <header class="hero">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1 class="names">Кирилл & Мария</h1>
+                <p class="date">27 июня 2026</p>
+                <p class="subtitle">Приглашаем вас разделить с нами радость нашего союза</p>
+                <div class="countdown">
+                    <p>До свадьбы осталось:</p>
+                    <div id="timer">
+                        <span id="days">00</span> дней 
+                        <span id="hours">00</span> часов 
+                        <span id="minutes">00</span> минут
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Навигация -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#our-story">Наша история</a></li>
+            <li><a href="#details">Детали</a></li>
+            <li><a href="#program">Расписание</a></li>
+            <li><a href="#gallery">Галерея</a></li>
+            <li><a href="#rsvp">Подтверждение</a></li>
+        </ul>
+    </nav>
+
+    <!-- Основное содержание -->
+    <main>
+        <!-- Наша история -->
+        <section id="our-story" class="section">
+            <div class="container">
+                <h2><i class="fas fa-heart"></i> Наша история</h2>
+                <div class="story-content">
+                    <div class="story-text">
+                        <p>Мы встретились весной 2025 и с первого взгляда понравились друг другу.</p>
+                        <p>С тех пор прошло много чудесных моментов: наши первые путешествия, совместные ужины, смех до слез и поддержка в трудные минуты.</p>
+                        <p>И вот теперь мы хотим сделать самый важный шаг в нашей жизни и приглашаем вас стать свидетелями этого счастливого дня!</p>
+                    </div>
+                    <div class="story-image">
+                        <img src="images/story1.jpg" alt="Фото пары">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Детали мероприятия -->
+        <section id="details" class="section section-light">
+            <div class="container">
+                <h2><i class="fas fa-calendar-alt"></i> Детали мероприятия</h2>
+                <div class="details-grid">
+                    <div class="detail-card">
+                        <div class="detail-icon">
+                            <i class="fas fa-church"></i>
+                        </div>
+                        <h3>Церемония</h3>
+                        <p><strong>Время:</strong> 12:15</p>
+                        <p><strong>Дата:</strong> 27 июня 2025</p>
+                        <p><strong>Место:</strong> Дворец бракосочетания №1</p>
+                        <p><strong>Адрес:</strong> Орёл, ул. Пролетарская Гора, 1</p>
+
+                    <div class="detail-card">
+                        <div class="detail-icon">
+                            <i class="fas fa-glass-cheers"></i>
+                        </div>
+                        <h3>Банкет</h3>
+                        <p><strong>Время:</strong> 16:00</p>
+                        <p><strong>Дата:</strong> 27 июня 2026</p>
+                        <p><strong>Место:</strong> Ресторан на Разбегаевке</p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Расписание дня -->
+        <section id="program" class="section">
+            <div class="container">
+                <h2><i class="fas fa-clock"></i> Расписание дня</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-time">12:00</div>
+                        <div class="timeline-content">
+                            <h3>Сбор гостей</h3>
+                            <p>Встреча гостей у Дворца бракосочетания</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-time">12:15</div>
+                        <div class="timeline-content">
+                            <h3>Церемония бракосочетания</h3>
+                            <p>Торжественная регистрация брака</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-time">12:40</div>
+                        <div class="timeline-content">
+                            <h3>Фотосессия</h3>
+                            <p>Прогулка и фото на улице Ленина</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-time">16:00</div>
+                        <div class="timeline-content">
+                            <h3>Начало банкета</h3>
+                            <p>Фуршет и ресторан</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-time">17:00</div>
+                        <div class="timeline-content">
+                            <h3>Праздничный ужин</h3>
+                            <p>Торжественная часть, поздравления</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-time">18:00</div>
+                        <div class="timeline-content">
+                            <h3>Торт и танцы</h3>
+                            <p>Разрезание свадебного торта и танцевальная программа</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Галерея -->
+        <section id="gallery" class="section section-light">
+            <div class="container">
+                <h2><i class="fas fa-images"></i> Наши моменты</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="images/story2.jpg" alt="Фото 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/story3.jpg" alt="Фото 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/story4.jpg" alt="Фото 3">
+                    </div>
+			<div class="gallery-item">
+                        <img src="images/story5.jpg" alt="Фото 4">
+                </div>
+            </div>
+        </section>
+
+        <!-- Форма подтверждения -->
+        <section id="rsvp" class="section">
+            <div class="container">
+                <h2><i class="fas fa-envelope"></i> Подтвердите ваше присутствие</h2>
+                <p class="rsvp-subtitle">Пожалуйста, ответьте до 1 февраля 2026 года</p>
+                
+                <form id="rsvp-form" class="rsvp-form">
+                    <div class="form-group">
+                        <label for="name">Ваше имя и фамилия *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="guests">Количество гостей *</label>
+                        <select id="guests" name="guests" required>
+                            <option value="" disabled selected>Выберите количество</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Будете ли вы присутствовать? *</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="attendance" value="yes" required>
+                                <span>Да, с радостью!</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="attendance" value="no" required>
+                                <span>К сожалению, не смогу</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Пожелания, аллергии, диетические ограничения</label>
+                        <textarea id="message" name="message" rows="3"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Отправить ответ</button>
+                </form>
+                <div id="form-message" class="form-message"></div>
+            </div>
+        </section>
+
+        
+    </main>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <h3>С любовью, Кирилл и Мария</h3>
+                    <p>С нетерпением ждем встречи с вами 27 июня 2026 года!</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Свадьба Кирилла и Марии. Сделано с ❤️</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Скрипты -->
+    <script src="script.js"></script>
+    </footer>
+
+</body>
+</html>
